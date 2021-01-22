@@ -1,0 +1,11 @@
+#!/bin/bash -l
+
+#SBATCH -q defq
+#SBATCH -N 1
+#SBATCH -n 1
+#SBATCH -t 00:20:00
+#SBATCH -J heat1
+#SBATCH -o heat1.%j.out
+#SBATCH -e heat1.%j.error
+
+./heat1

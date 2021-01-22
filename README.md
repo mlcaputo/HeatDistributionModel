@@ -10,8 +10,10 @@ the temperatures of the four neighboring points.
 
 Current parameters set to N=1000 and T=5000, where N is the size of the NxN matrix and T is the number of iterations.
 
-Sequential: Time of computation: 44.168751 seconds
-            Random sample point (8,500): 89.789786
+Sequential: 
+Time of computation: 44.168751 seconds
+Random sample point (8,500): 89.789786
             
-Parallel: Time of computation: 1.965030 seconds
-          Random sample point (8,500): 84.011907
+Parallel: 
+Time of computation: 1.965030 seconds
+Random sample point (8,500): 84.011907
